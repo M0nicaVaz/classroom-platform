@@ -15,7 +15,9 @@
     "graphql": "^16.5.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-youtube": "^9.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
