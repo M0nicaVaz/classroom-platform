@@ -1,6 +1,7 @@
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Header } from '../components/Header';
 import { Sidebar } from '../components/Sidebar';
+import { Streaming } from '../components/Streaming';
 import { Video } from '../components/Video';
 
 export function Event() {
@@ -13,9 +14,10 @@ export function Event() {
         {slug ? (
           <Video lessonSlug={slug} />
         ) : (
-          <div className="flex-1 grid place-content-center">
-            <span className="text-lg text-gray-300">
-              Clica em uma aula à direita para começar o seu desenvolvimento!
+          <div className="max-w[100vw] flex-1 flex flex-col gap-2 items-center justify-start mt-48 text-center">
+            <Streaming width={326} height={205} />
+            <span className="leading-loose text-xl text-gray-200 ">
+              Escolha uma aula!
             </span>
           </div>
         )}

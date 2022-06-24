@@ -59,7 +59,7 @@ export function Video(props: VideoProps) {
   }
 
   return (
-    <div className=" flex-1">
+    <div className="pb-16 flex-1">
       <div className="bg-black flex justify-center">
         <div className="h-full w-full max-w-[68.75rem] max-h-[60vh] aspect-video">
           <Player>
