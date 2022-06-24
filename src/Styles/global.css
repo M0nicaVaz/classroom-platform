@@ -4,5 +4,16 @@
 
 body {
   @apply bg-gray-900 text-gray-100;
-  -webkite-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #121214;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #29292e;
 }
