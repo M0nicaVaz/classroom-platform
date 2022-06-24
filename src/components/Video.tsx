@@ -50,7 +50,10 @@ export function Video(props: VideoProps) {
             </p>
 
             {data.lesson.teacher && (
-              <div className="flex items-center gap-4 mt-6">
+              <a
+                href="https://github.com/m0nicavaz"
+                className="flex items-center gap-4 mt-6"
+              >
                 <img
                   className="h-16 w-16 rounded-full border-2 border-blue-500"
                   src={data.lesson.teacher.avatarURL}
@@ -58,14 +61,14 @@ export function Video(props: VideoProps) {
                 />
 
                 <div className="leading-relaxed">
-                  <strong className="font-bold text-xl lg:text-2xl block">
+                  <strong className="font-bold text-xl lg:text-2xl block hover:text-blue-500">
                     {data.lesson.teacher.name}
                   </strong>
                   <span className="text-sm text-gray-200 block ">
                     {data.lesson.teacher.bio}
                   </span>
                 </div>
-              </div>
+              </a>
             )}
           </div>
 
