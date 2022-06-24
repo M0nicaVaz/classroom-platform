@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Logo } from '../components/Logo';
+import { Footer } from '../components/Footer';
 import { useCreateSubscriberMutation } from '../graphql/generated';
 
 import codeImg from '../assets/code.png';
@@ -78,6 +79,7 @@ export function Subscribe() {
       </div>
 
       <img src={codeImg} className="mt-10" alt="code" />
+      <Footer />
     </div>
   );
 }
