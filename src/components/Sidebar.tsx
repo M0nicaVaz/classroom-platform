@@ -1,33 +1,11 @@
-import { gql, useQuery } from '@apollo/client';
+import { useGetLessonsQuery } from '../graphql/generated';
 import { useState } from 'react';
 import { Lesson } from './Lesson';
 import classNames from 'classnames';
 import { List, X } from 'phosphor-react';
 
-const GET_LESSONS_QUERY = gql`
-  query {
-    lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
-      id
-      title
-      slug
-      lessonType
-      availableAt
-    }
-  }
-`;
-
-interface GetLessonsQueryResponse {
-  lessons: {
-    id: string;
-    title: string;
-    slug: string;
-    availableAt: string;
-    lessonType: 'live' | 'class';
-  }[];
-}
-
 export function Sidebar() {
-  const { data } = useQuery<GetLessonsQueryResponse>(GET_LESSONS_QUERY);
+  const { data } = useGetLessonsQuery();
 
   const [isOpen, setIsOpen] = useState(true);
 
