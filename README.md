@@ -21,7 +21,7 @@ git clone https://github.com/M0nicaVaz/classroom-platform.git && cd classroom-pl
 $ npm or yarn install
 
 # Run the web server
-$ npm dev
+$ npm run dev
 ```
 
 ### Tech Stack
