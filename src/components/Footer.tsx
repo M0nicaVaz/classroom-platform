@@ -7,11 +7,11 @@ export function Footer() {
       <div className="w-full flex items-center justify-center lg:justify-end ">
         <div className="flex items-center gap-2 ">
           <span className="ml-6 text-xs text-gray-200">me dê um oi</span>
-          <a href="https://github.com/m0nicavaz">
+          <a href="https://github.com/m0nicavaz" target="_blank">
             <GithubLogo size={20} className="hover:text-blue-500" />
           </a>
 
-          <a href="https://www.linkedin.com/in/monica-vaz/">
+          <a href="https://www.linkedin.com/in/monica-vaz/" target="_blank">
             <LinkedinLogo size={20} className="hover:text-blue-500" />
           </a>
         </div>
