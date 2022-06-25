@@ -45,13 +45,15 @@ export function Sidebar() {
           <div className="flex flex-col gap-8">
             {data?.lessons.map((lesson) => {
               return (
-                <Lesson
-                  key={lesson.id}
-                  title={lesson.title}
-                  slug={lesson.slug}
-                  availableAt={new Date(lesson.availableAt)}
-                  type={lesson.lessonType}
-                />
+                <div onClick={() => setIsOpen(!isOpen)}>
+                  <Lesson
+                    key={lesson.id}
+                    title={lesson.title}
+                    slug={lesson.slug}
+                    availableAt={new Date(lesson.availableAt)}
+                    type={lesson.lessonType}
+                  />
+                </div>
               );
             })}
           </div>
