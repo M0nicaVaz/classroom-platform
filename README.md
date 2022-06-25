@@ -4,7 +4,7 @@ Click <a href = "https://classroom-platform.vercel.app/">here</a> to see it live
 
 ### Preview
 
-<img src="https://github.com/M0nicaVaz/classroom-platform/blob/main/assets/.github/preview.gif?raw=true" width="680px" >
+<img src="https://github.com/M0nicaVaz/classroom-platform/blob/main/src/assets/.github/preview.gif?raw=true" width="680px" >
 
 ### Setup
 
