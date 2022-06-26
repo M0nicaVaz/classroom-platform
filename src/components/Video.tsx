@@ -87,7 +87,8 @@ export function Video(props: VideoProps) {
 
         <div className="gap-8 mt-20 grid grid-cols-1 xl:grid-cols-2">
           <a
-            href=""
+            href="https://github.com/m0nicavaz"
+            target="_blank"
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-2 lg:gap-6 justify-between hover:bg-gray-600 transition-colors"
           >
             <div className="bg-green-700 h-full p-2 lg:p-6 flex items-center">
@@ -110,7 +111,8 @@ export function Video(props: VideoProps) {
           </a>
 
           <a
-            href=""
+            href="https://github.com/m0nicavaz"
+            target="_blank"
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-2 lg:gap-6 justify-between hover:bg-gray-600 transition-colors"
           >
             <div className="bg-green-700 h-full p-2 lg:p-6 flex items-center">
