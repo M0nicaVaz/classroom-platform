@@ -52,6 +52,7 @@ export function Video(props: VideoProps) {
             {data.lesson.teacher && (
               <a
                 href="https://github.com/m0nicavaz"
+                target="_blank"
                 className="flex items-center gap-4 mt-6"
               >
                 <img
